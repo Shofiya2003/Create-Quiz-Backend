@@ -1,9 +1,12 @@
 # Create-Quiz-Backend
 
 
+
+
 ## 1. Description : Creates quiz with following parameters
 ```
 date : Date
+<!--- An array of mongoose subdocument -->
 quiz : [{
   options:[{
     value:String,
@@ -44,7 +47,6 @@ quiz : [{
             "answer" : 2,
             "answered_by" : 0,
             "question" : "this is the question",
-            "hint" : "jj",
-            "_id" : ObjectId("62725e868c9b0ba956e765e6"),
+            "hint" : "jj"
            }
 ```
